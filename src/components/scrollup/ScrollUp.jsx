@@ -2,6 +2,7 @@ import React from 'react';
 import "./scrollup.css";
 
 function ScrollUp(props) {
+
     window.addEventListener("scroll", function () {
         const scrollUp = document.querySelector(".scrollup");
         // when the scroll is higher than 560 viewport height, add the show-scroll class to a tag with the scroll-top class
